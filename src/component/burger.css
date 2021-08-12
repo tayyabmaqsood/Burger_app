@@ -1,0 +1,127 @@
+.LeftSide{
+  width:50%;
+  float:left;
+}
+.RightSide{
+  float:right;
+  width: 40%;
+  margin-right: 30px;
+  background-color: #f4b46c;
+
+}
+
+.BurgerBlock{
+  height:390px;
+  width:100%;
+  overflow:auto;
+}
+.BurgerBlock span {
+  font-size: 25px;
+}
+
+.IngredientBlock{
+  width: 80%;
+  display:flex;
+  padding: 10px 10px 10px 20px;
+}
+
+.IngredientCost{
+  width: 350px ;
+  font-size:18px !important;
+}
+
+.IngredientBlock span {
+  font-size: 25px;
+}
+
+.Ingredienttext{
+  width:230px !important;
+}
+
+.IngredientBtn1{
+  background-color: lightgray;
+  color:black;
+  padding:5px;
+  border-radius: 10px;
+  margin:0px 5px 0px 10px ;
+  width:150px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.IngredientBtn2{
+  background-color: #c17116;
+  color:white;
+  padding:5px;
+  font-size: 20px;
+  cursor: pointer;
+  width:150px;
+  height: 35px;
+  border-radius: 10px;
+  margin:0px 5px 0px 10px ;
+  border:none;
+
+}
+
+.topside{
+  background-image: url(../assets/top.jpg) ;
+  background-size: 300px;
+  height:100px;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.bottomside{
+  background-image: url(../assets/bottom.jpg) ;
+  background-size: 300px;
+  height:70px;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.lettuceSide{
+
+  background-image: url(../assets/lettuse.jpg) ;
+  background-size: 300px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position:center;
+
+}
+
+.beconSide{
+  background-image: url(../assets/becon.png) ;
+  background-size: 300px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.cheeseSide{
+  background-image: url(../assets/cheese.jpg) ;
+  background-size: 300px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.meatSide{
+  background-image: url(../assets/meat.jpg) ;
+  background-size: 300px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position:center;
+  margin-bottom: 2px;
+}
+
+.burgertext{
+  margin-left: 280px;
+  height:100px;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.pricetag{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
